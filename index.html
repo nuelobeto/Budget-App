@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+</head>
+
+<body>
+  <div class="container">
+    <div id="balance">
+      <h2>BALANCE</h2>
+      <span id="bal">0.00</span>
+    </div>
+    <div class="accounts">
+      <span id="income">
+        <p>INCOME</p>
+        <span id="inc">0.00</span>
+      </span>
+      <span id="expense">
+        <p>EXPENSE</p>
+        <span id="exp">0.00</span>
+      </span>
+    </div>
+    <h4>TRANSACTION HISTORY</h4>
+    <ul id="transactions">
+      <!--<li class="item">
+        <p class="text">food</p>
+        <p class="amount">500</p>
+        <span class="delete">×</span>
+      </li>-->
+    </ul>
+    <input type="text" id="text-input" placeholder="Enter transaction name" />
+    <input type="number" id="amount-input" placeholder="Enter transaction amount" />
+    <p>ENTER A POSITIVE NUMBER FOR INCOME AND A NEGATIVE NUMBER FOR EXPENSE</p>
+    <button id="submit" onclick="addTransaction()">ADD TRANSACTION</button>
+  </div>
+ 
+<script src="main.js" type="text/javascript" charset="utf-8"></script>
+</body>
+
+</html>
